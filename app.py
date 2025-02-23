@@ -19,4 +19,4 @@ total = st.slider("Total", min_value=0, max_value=100, value=20)
 if st.button("Predict"):
   # take the rating value, and format the value the right way
  prediction = model.predict([[Unit_price, Rating, Total ]])[0].round(3)
-st.write("The predicted supermarket Quantity is" prediction,)
+st.write(The predicted supermarket Quantity is prediction,)
