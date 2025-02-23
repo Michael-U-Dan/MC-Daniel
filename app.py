@@ -11,7 +11,7 @@ with open("model.pkl", "rb") as f:
 st.title("Supermarket Quantity Value Predictor" )
 
 # input widget for getting user values for X (feature matrix value)
-Unit = st.slider("Unit price", min_value=0, max_value=100, value=20)
+Unit = st.slider("Unit_price", min_value=0, max_value=100, value=20)
 Rating = st.slider("Rating", min_value=0, max_value=100, value=20)
 total = st.slider("Total", min_value=0, max_value=100, value=20)
 
